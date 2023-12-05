@@ -1,0 +1,29 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>JQuery AJAX Call</title>
+</head>
+
+<body>
+<form id='formId' action='/formData' method="post"> Name:
+    <label for="id">ID:</label><br>
+    <input type="number" id="id" name="id"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="gender">Gender:</label><br>
+    <input type="text" id="gender" name="gender"><br>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="status">Status:</label><br>
+    <input type="text" id="status" name="status"><br>
+    <label for="userId">User ID:</label><br>
+    <input type="text" id="userId" name="userId"><br>
+    <button type='submit' id='submitButton'>Submit
+    </button>
+</form>
+<#include "script.ftl">
+<script type="application/javascript" src="/form.js"></script>
+</body>
+
+</html>
